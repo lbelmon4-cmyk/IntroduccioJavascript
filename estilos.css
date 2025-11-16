@@ -1,0 +1,16 @@
+/* estilos.css - estils per als exemples DOM */
+#dom-demo-root {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 18px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fbfbfb;
+}
+#dom-demo-root h2 { margin-top: 0; }
+.demo-list { padding-left: 1.2rem; }
+#controls { margin-top: 8px; }
+#controls button { margin-right: 6px; }
+#logs { margin-top: 12px; font-size: 0.9rem; color: #333; }
+.highlight-list li { background: #fffae6; }
+.demo-paragraph { transition: background-color 0.2s ease; }
