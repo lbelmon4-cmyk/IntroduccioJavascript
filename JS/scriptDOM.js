@@ -4,6 +4,49 @@
 // - Crear, afegir i eliminar nodes
 // - Manipulació d'estils (.style i .classList)
 
+/*
+Exemple: 
+document.addEventListener('DOMContentLoaded', () => {
+	// codi que s'executa quan el DOM està carregat
+});
+
+document.addEventLister
+document.getElementById('identificador').addEventListener
+- funció que espera un esdeveniment i després fa alguna cosa quan això pasa 
+
+Esdeveniments de pàgina
+'DOMContentLoaded'
+'load'
+'resize'
+'scroll'
+
+Esdeveniment de ratolí
+'click'
+'dblclick'
+'mouseover'
+'mouseout'
+'mousedown'
+'mouseup'
+'mousemove'
+
+Esdeveniment de teclat
+'keydown'
+'keyup'
+'keypress'
+
+Esdeveniment de formulari
+'submit'
+'change'
+'input'
+'focus'
+'blur'
+
+- nom de l'esdeveniment que estem escolant
+
+() => {}
+- funció anònima del tipus arrow que s'executa quan es produeix l'esdeveniment
+*/
+
 document.addEventListener('DOMContentLoaded', () => {
 	// Creem una zona de demostració dins del body
 	const demoRoot = document.createElement('section');
@@ -54,6 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const listContainer = document.getElementById('list-container');
 	console.log('getAttribute id of listContainer -> ' + listContainer.getAttribute('id'));
 	listContainer.setAttribute('data-demo', '1');
+	//data-demo="1" és un atribut personalitzat que podem afegir per donar informació extra
 	console.log('setAttribute data-demo -> ' + listContainer.getAttribute('data-demo'));
 
 	// ---------------- Crear, afegir i eliminar nodes ----------------
