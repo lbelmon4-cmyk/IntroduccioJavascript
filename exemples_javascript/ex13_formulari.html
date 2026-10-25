@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>13 · Validar un formulari — Exemples de JavaScript</title>
+  <link rel="stylesheet" href="css/exemples.css">
+  <script src="js/ex13_formulari.js" defer></script>
+</head>
+<body>
+  <header><a href="index.html">← Tots els exemples</a></header>
+  <main>
+    <h1 id="titol">13 · Validar un formulari</h1>
+    <p class="resum">Un formulari amb novalidate, validació amb JavaScript, missatges d'error creats amb el DOM, i un resum de confirmació en enviar-lo correctament.</p>
+    <form id="alta" novalidate>
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom">
+      <label for="correu">Correu electrònic</label>
+      <input type="email" id="correu" name="correu">
+      <label for="edat">Edat</label>
+      <input type="number" id="edat" name="edat">
+      <label for="genere">Gènere preferit</label>
+      <select id="genere" name="genere">
+        <option value="">Tria una opció</option>
+        <option>Novel·la</option>
+        <option>Poesia</option>
+        <option>Teatre</option>
+        <option>Assaig</option>
+      </select>
+      <p><button type="submit">Dona'm d'alta</button></p>
+    </form>
+    <div id="resum"></div>
+    <p class="pista"><strong>Com treballar-hi:</strong> obre la carpeta amb VS Code, llegeix el fitxer <code>js/ex13_formulari.js</code> i prova els canvis proposats al final. Amb F12 veuràs la consola del navegador.</p>
+  </main>
+</body>
+</html>

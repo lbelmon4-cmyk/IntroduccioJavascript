@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>09 · Manipular estils: style i classList — Exemples de JavaScript</title>
+  <link rel="stylesheet" href="css/exemples.css">
+  <script src="js/utils.js" defer></script>
+  <script src="js/ex09_estils.js" defer></script>
+</head>
+<body>
+  <header><a href="index.html">← Tots els exemples</a></header>
+  <main>
+    <h1 id="titol">09 · Manipular estils: style i classList</h1>
+    <p class="resum">Dues maneres de canviar l'aspecte d'un element: la propietat style (regla a regla) i classList (afegir i treure classes).</p>
+    <p id="caixa" class="resum gran">Aquesta és la caixa de proves.</p>
+    <h2>Amb la propietat style</h2>
+    <button id="btn-vermell">Fons vermell</button>
+    <button id="btn-mida">Lletra gran</button>
+    <button id="btn-reinicia-style" class="secundari">Reinicia</button>
+    <h2>Amb classList</h2>
+    <button id="btn-add">add("destacat")</button>
+    <button id="btn-remove">remove("destacat")</button>
+    <button id="btn-toggle">toggle("ressaltat")</button>
+    <h2>Sortida</h2>
+    <pre id="sortida" class="sortida"></pre>
+    <p class="pista"><strong>Com treballar-hi:</strong> obre la carpeta amb VS Code, llegeix el fitxer <code>js/ex09_estils.js</code> i prova els canvis proposats al final. Amb F12 veuràs la consola del navegador.</p>
+  </main>
+</body>
+</html>

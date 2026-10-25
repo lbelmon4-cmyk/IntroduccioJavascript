@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>12 · Cerca i filtre en directe — Exemples de JavaScript</title>
+  <link rel="stylesheet" href="css/exemples.css">
+  <script src="js/ex12_filtrar.js" defer></script>
+</head>
+<body>
+  <header><a href="index.html">← Tots els exemples</a></header>
+  <main>
+    <h1 id="titol">12 · Cerca i filtre en directe</h1>
+    <p class="resum">Escriu per cercar i tria una comarca per filtrar: cada canvi filtra l'array amb un callback i torna a pintar la llista.</p>
+    <div class="fila">
+      <div>
+        <label for="cerca">Cerca per nom</label>
+        <input type="search" id="cerca" placeholder="Escriu una ciutat">
+      </div>
+      <div>
+        <label for="comarca">Comarca</label>
+        <select id="comarca">
+          <option value="">Totes</option>
+          <option>Barcelonès</option>
+          <option>Gironès</option>
+          <option>Vallès Occidental</option>
+          <option>Segrià</option>
+          <option>Tarragonès</option>
+          <option>Baix Camp</option>
+        </select>
+      </div>
+    </div>
+    <p id="estat"></p>
+    <ul class="llista" id="resultat"></ul>
+    <p class="pista"><strong>Com treballar-hi:</strong> obre la carpeta amb VS Code, llegeix el fitxer <code>js/ex12_filtrar.js</code> i prova els canvis proposats al final. Amb F12 veuràs la consola del navegador.</p>
+  </main>
+</body>
+</html>

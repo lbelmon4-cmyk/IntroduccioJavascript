@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>07 · Seleccionar elements del DOM — Exemples de JavaScript</title>
+  <link rel="stylesheet" href="css/exemples.css">
+  <script src="js/utils.js" defer></script>
+  <script src="js/ex07_dom_seleccio.js" defer></script>
+</head>
+<body>
+  <header><a href="index.html">← Tots els exemples</a></header>
+  <main>
+    <h1 id="titol">07 · Seleccionar elements del DOM</h1>
+    <p class="resum">Els quatre mètodes de selecció i què retorna cadascun. Els botons ressalten el que ha seleccionat cada mètode.</p>
+    <div class="fila">
+      <button id="btn-id">getElementById</button>
+      <button id="btn-primera">querySelector</button>
+      <button id="btn-totes">querySelectorAll (.nota)</button>
+      <button id="btn-llista">querySelectorAll (#llista li)</button>
+    </div>
+    <h2>La pàgina d'exemple</h2>
+    <p class="nota">Nota 1: les classes es poden repetir.</p>
+    <p class="nota">Nota 2: el mateix selector les agafa totes.</p>
+    <p class="nota">Nota 3: querySelector només agafa la primera.</p>
+    <ul class="llista" id="llista">
+      <li>Pa</li><li>Llet</li><li>Ous</li><li>Fruita</li>
+    </ul>
+    <p><a id="enllac" href="https://www.itb.cat/">Enllaç d'exemple</a> <button id="btn-href" class="secundari">Canvia l'atribut href</button></p>
+    <h2>Sortida</h2>
+    <pre id="sortida" class="sortida"></pre>
+    <p class="pista"><strong>Com treballar-hi:</strong> obre la carpeta amb VS Code, llegeix el fitxer <code>js/ex07_dom_seleccio.js</code> i prova els canvis proposats al final. Amb F12 veuràs la consola del navegador.</p>
+  </main>
+</body>
+</html>

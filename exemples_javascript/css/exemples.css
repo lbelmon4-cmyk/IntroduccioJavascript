@@ -1,0 +1,48 @@
+/* Estil compartit pels exemples. No cal modificar-lo per entendre JavaScript. */
+:root {
+  --navy: #10173A;
+  --blau: #0040F8;
+  --gris: #33405E;
+  --fons: #FFFFFF;
+  --panell: #F2F5FE;
+  --vora: #DCE3F5;
+  --error: #C62828;
+  --avis: #B45309;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 0 1rem 3rem; font-family: Calibri, Arial, sans-serif;
+  color: var(--gris); background: var(--fons); line-height: 1.5;
+}
+body.fosc { --fons: #10173A; --gris: #DCE3F5; --panell: #1B2552; --vora: #33405E; --navy: #FFFFFF; background: var(--fons); }
+header, main { max-width: 52rem; margin: 0 auto; }
+header { padding: 1rem 0 0; }
+a { color: var(--blau); }
+body.fosc a { color: #9DB4FF; }
+h1 { font-family: "Courier New", monospace; color: var(--navy); font-size: 1.6rem; }
+h2 { font-family: "Courier New", monospace; color: var(--navy); font-size: 1.1rem; margin-top: 2rem; }
+.resum { background: var(--panell); border-radius: .5rem; padding: .75rem 1rem; }
+.sortida {
+  background: #0C1330; color: #DCE3F5; padding: 1rem; border-radius: .5rem;
+  font-family: "Courier New", monospace; font-size: .95rem; min-height: 4rem; white-space: pre-wrap;
+}
+.pista { font-size: .9rem; border-left: 4px solid var(--blau); padding-left: .75rem; }
+button { background: var(--blau); color: #fff; border: 0; border-radius: .4rem; padding: .5rem .9rem; margin: .2rem .2rem .2rem 0; font-size: 1rem; cursor: pointer; }
+button.secundari { background: var(--gris); }
+input, select, textarea { font: inherit; padding: .4rem .5rem; border: 2px solid var(--vora); border-radius: .4rem; max-width: 100%; }
+label { display: block; margin-top: .75rem; font-weight: bold; }
+.ressaltat { background: #FFE98A; outline: 2px solid #E0B400; color: #10173A; }
+.error { border-color: var(--error); }
+.missatge-error { color: var(--error); font-size: .9rem; margin: .2rem 0 0; }
+.aviso { color: var(--avis); font-weight: bold; }
+.estoc-baix { color: var(--error); font-weight: bold; }
+.targetes { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 1rem; }
+.targetes article { background: var(--panell); border: 1px solid var(--vora); border-radius: .5rem; padding: .75rem 1rem; }
+.targetes h3 { margin: 0 0 .25rem; color: var(--navy); font-size: 1.05rem; }
+.resum-confirmacio { background: var(--panell); border: 2px solid var(--blau); border-radius: .5rem; padding: .75rem 1rem; margin-top: 1rem; }
+ul.llista { padding-left: 1.2rem; }
+ul.llista li { margin: .3rem 0; }
+.fila { display: flex; flex-wrap: wrap; gap: .75rem; align-items: end; }
+.destacat { color: #fff; background: var(--blau); padding: .1rem .4rem; border-radius: .3rem; font-weight: bold; }
+.gran { font-size: 1.5rem; }
+.excedit { color: var(--error); font-weight: bold; }

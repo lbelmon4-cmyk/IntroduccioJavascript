@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exemples de JavaScript — RA3</title>
+  <link rel="stylesheet" href="css/exemples.css">
+</head>
+<body>
+  <main>
+    <h1>Exemples de JavaScript · RA3</h1>
+    <p class="resum">Cada exemple és una pàgina petita amb el seu fitxer <code>.js</code> comentat. Obre'l amb VS Code, llegeix-lo, executa'l al navegador i fes les proves que es proposen al final de cada fitxer. Els exemples segueixen l'ordre de la presentació de teoria.</p>
+    <h2>Introducció, variables i tipus de dades</h2>
+    <ul class="llista">
+      <li><a href="ex01_hola.html"><strong>01 · El primer script</strong></a><br>Tres maneres d'incloure JavaScript a l'HTML, comentaris, majúscules i minúscules, i el primer canvi al DOM.</li>
+      <li><a href="ex02_variables.html"><strong>02 · Variables: var, let i const</strong></a><br>Diferències d'àmbit entre var i let, const que no es pot tornar a assignar però sí modificar si és un array o un objecte, i identificadors vàlids.</li>
+      <li><a href="ex03_hoisting.html"><strong>03 · Hoisting</strong></a><br>Què passa quan fem servir una variable o una funció abans de declarar-la.</li>
+      <li><a href="ex04_tipus.html"><strong>04 · Tipus de dades</strong></a><br>typeof, undefined contra null, i la diferència entre copiar un valor primitiu i copiar la referència d'un objecte.</li>
+    </ul>
+    <h2>Operadors i funcions</h2>
+    <ul class="llista">
+      <li><a href="ex05_comparar.html"><strong>05 · Operadors == i ===</strong></a><br>Una taula amb comparacions que donen resultats diferents segons l'operador. Observa-la bé: sovint sorprèn!</li>
+      <li><a href="ex06_funcions.html"><strong>06 · Funcions, arrow functions i callbacks</strong></a><br>Les tres maneres d'escriure una funció i els callbacks amb bucles, esdeveniments i temporitzadors.</li>
+    </ul>
+    <h2>El DOM i els esdeveniments</h2>
+    <ul class="llista">
+      <li><a href="ex07_dom_seleccio.html"><strong>07 · Seleccionar elements del DOM</strong></a><br>Els quatre mètodes de selecció i què retorna cadascun. Els botons ressalten el que ha seleccionat cada mètode.</li>
+      <li><a href="ex08_dom_crear.html"><strong>08 · Crear, afegir i eliminar elements</strong></a><br>Una llista de tasques que es construeix amb createElement i appendChild, i es redueix amb remove(). També la diferència entre textContent i innerHTML.</li>
+      <li><a href="ex10_camps.html"><strong>10 · Llegir camps i reaccionar en directe</strong></a><br>L'esdeveniment input per fer un comptador de caràcters en directe, i com llegir el valor d'un select, d'una casella i d'un camp numèric.</li>
+    </ul>
+    <h2>Estils</h2>
+    <ul class="llista">
+      <li><a href="ex09_estils.html"><strong>09 · Manipular estils: style i classList</strong></a><br>Dues maneres de canviar l'aspecte d'un element: la propietat style (regla a regla) i classList (afegir i treure classes).</li>
+      <li><a href="ex14_mode_fosc.html"><strong>14 · Mode fosc</strong></a><br>Un botó que alterna entre mode clar i fosc afegint o traient una classe al body amb classList.toggle().</li>
+    </ul>
+    <h2>Per entendre com es construirà la pràctica</h2>
+    <ul class="llista">
+      <li><a href="ex11_array_objectes.html"><strong>11 · Array d'objectes i targetes amb un bucle</strong></a><br>Les dades viuen en un array d'objectes i JavaScript crea les targetes amb un bucle. Observa que el contenidor de l'HTML és buit.</li>
+      <li><a href="ex12_filtrar.html"><strong>12 · Cerca i filtre en directe</strong></a><br>Escriu per cercar i tria una comarca per filtrar: cada canvi filtra l'array amb un callback i torna a pintar la llista.</li>
+      <li><a href="ex13_formulari.html"><strong>13 · Validar un formulari</strong></a><br>Un formulari amb novalidate, validació amb JavaScript, missatges d'error creats amb el DOM, i un resum de confirmació en enviar-lo correctament.</li>
+    </ul>
+
+    <p class="pista"><strong>Recorda:</strong> els exemples 11, 12 i 13 fan servir altres temes (llibres, ciutats, club de lectura) perquè aprenguis la tècnica; a la pràctica l'hauràs d'aplicar tu a la botiga de videojocs.</p>
+  </main>
+</body>
+</html>

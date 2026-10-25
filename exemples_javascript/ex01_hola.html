@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>01 · El primer script — Exemples de JavaScript</title>
+  <link rel="stylesheet" href="css/exemples.css">
+  <script src="js/utils.js" defer></script>
+  <script src="js/ex01_hola.js" defer></script>
+</head>
+<body>
+  <header><a href="index.html">← Tots els exemples</a></header>
+  <main>
+    <h1 id="titol">01 · El primer script</h1>
+    <p class="resum">Tres maneres d'incloure JavaScript a l'HTML, comentaris, majúscules i minúscules, i el primer canvi al DOM.</p>
+    <h2>Script inline</h2>
+    <p>Aquest paràgraf ve acompanyat d'un <code>&lt;script&gt;</code> escrit directament a l'HTML (mira la consola).</p>
+    <script>console.log("Aquest és un script inline, escrit dins de l'HTML.");</script>
+    <h2>Script extern amb defer</h2>
+    <p>L'altre script és a <code>js/ex01_hola.js</code> i està enllaçat amb <code>defer</code> al <code>&lt;head&gt;</code>.</p>
+    <h2>Sortida</h2>
+    <pre id="sortida" class="sortida"></pre>
+    <p class="pista"><strong>Com treballar-hi:</strong> obre la carpeta amb VS Code, llegeix el fitxer <code>js/ex01_hola.js</code> i prova els canvis proposats al final. Amb F12 veuràs la consola del navegador.</p>
+  </main>
+</body>
+</html>
